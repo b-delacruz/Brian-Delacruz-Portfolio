@@ -2,16 +2,25 @@ li {
   display: inline;
 }
 
-#homePage{
+#home-page{
   font-size: 14px;
   font-weight: 700;
   margin: 12px 0;
   padding: 12px;
+  text-align: left;
+  color: red;
 }
+#drop-down-menu{
+  text-align: right;
+  margin: -70px 100px;
+}
+
 
 .menu{
   font-size: 14px;
   font-weight: 700;
   margin: 12px 0;
   padding: 12px;
+  text-align: right;
+  align-items: right;
 }
