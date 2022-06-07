@@ -31,6 +31,6 @@ function handleEvent(){
 
 function changeFavicon() {
 bugFavicon
-  ? favicon.setAttribute('href', "/assets/images/bug.jpg") : favicon.setAttribute('href', "/assets/images/Brian.jpg")
+  ? favicon.setAttribute('href', "/assets/images/bug.jpg") : favicon.setAttribute('href', "/assets/images/fix.jpg")
   console.log(bugFavicon)
 }
