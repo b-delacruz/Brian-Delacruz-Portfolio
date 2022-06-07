@@ -5,22 +5,26 @@ li {
 #home-page{
   font-size: 14px;
   font-weight: 700;
-  margin: 12px 0;
-  padding: 12px;
   text-align: left;
-  color: red;
+  color: black;
+  height: 0px;
+  margin-top: 30px;
 }
-#drop-down-menu{
+
+nav{
   text-align: right;
-  margin: -70px 100px;
-}
-
-
-.menu{
   font-size: 14px;
   font-weight: 700;
-  margin: 12px 0;
-  padding: 12px;
-  text-align: right;
-  align-items: right;
+  padding: 0 40px;
+  letter-spacing: 0px;
+  word-spacing: 5px;
+  color: black;
+  line-height: 30px;
 }
+
+header{
+  border-bottom: 2px solid;
+  background: lightgray;
+  height: 30px;
+  width: auto;
+  }
