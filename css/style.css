@@ -1,5 +1,5 @@
 #home-page{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   text-align: left;
   color: black;
@@ -15,7 +15,6 @@ nav{
   padding: 0px 40px;
   margin-right: 50px;
   letter-spacing: -1px;
-  word-spacing: 10px;
   color: black;
   line-height: 150px;
 }
@@ -31,16 +30,16 @@ header{
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    margin: 150px 100px;
+    margin: 150px 300px;
   }
 
   .intro {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
-    color: blue;
+    color: black;
     position: absolute;
     line-height: 700px;
-    left: 900px;
+    left: 700px;
     bottom: 10px;
     width: 325px;
   }
@@ -48,20 +47,20 @@ header{
   .abt{
     text-align: left;
     font-size: 16px;
-    color: blue;
+    color: black;
     position: absolute;
     line-height: 600px;
-    left: 950px;
+    left: 700px;
     bottom: 10px;
     width: 325px;
   }
   .abt2{
     text-align: left;
     font-size: 16px;
-    color: blue;
+    color: black;
     position: absolute;
     line-height: 550px;
-    left: 950px;
+    left: 700px;
     bottom: 10px;
     width: 325px;
   }
@@ -72,8 +71,22 @@ header{
       color: black;
       position: absolute;
       line-height: 20px;
-      left: 1000px;
+      left: 700px;
       bottom: 150px;
       width: 100px;
     }
+  
+  #nft-collection{
+    padding: 20px;
+  }
+
+  #my-work{
+    padding: 20px;
+  }
+  
+  #about-me{
+    padding: 20px;
+  }
+  #contact{
+    padding: 20px;
   }
