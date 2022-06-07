@@ -28,3 +28,8 @@ header{
   height: 30px;
   width: auto;
   }
+
+  #pic{
+    height: 200px;
+    width: 300px;
+  }
