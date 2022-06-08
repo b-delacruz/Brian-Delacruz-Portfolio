@@ -1,0 +1,25 @@
+#resume{
+  text-align: right;
+  font-size: 16px;
+  color: black;
+  position: absolute;
+  line-height: 50px;
+  left: 800px;
+  bottom: 10px;
+  height: 400px;
+  width: 450px;
+}
+body{
+  background-color: grey;
+}
+
+#abtMe{
+  position: absolute;
+  top: 165px;
+  left: 350px;
+  font-size: 40px;
+}
+
+#resumeBtn{
+
+}

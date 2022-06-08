@@ -15,10 +15,10 @@ const homeBtn = document.querySelector("#home-page")
 const favicon = document.querySelector("#favicon")
 const bugBtn = document.getElementById("bug")
 console.log(favicon)
-/*----------------------------- Event Listeners -----------------------------*/
+// /*----------------------------- Event Listeners -----------------------------*/
 bugBtn.addEventListener("click", handleEvent)
 
-/*-------------------------------- Functions --------------------------------*/
+// /*-------------------------------- Functions --------------------------------*/
 
 let bugFavicon = false
 
