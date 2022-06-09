@@ -1,10 +1,13 @@
 /*-------------------------------- Constants --------------------------------*/
+import { myWork } from "./my-work.js"
 
+console.log(myWork)
 
 /*-------------------------------- Variables --------------------------------*/
 
 
 /*------------------------ Cached Element References ------------------------*/
+const cardContainer = document.getElementById('card-container')
 
 const aboutBtn = document.querySelector("#about-me")
 const nftBtn = document.querySelector("#nft-collection")
@@ -14,9 +17,8 @@ const homeBtn = document.querySelector("#home-page")
 
 const favicon = document.querySelector("#favicon")
 const bugBtn = document.getElementById("bug")
-console.log(favicon)
 // /*----------------------------- Event Listeners -----------------------------*/
-bugBtn.addEventListener("click", handleEvent)
+bugBtn.addEventListener('click', handleEvent)
 
 // /*-------------------------------- Functions --------------------------------*/
 
