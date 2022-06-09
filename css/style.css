@@ -7,52 +7,114 @@ nav{
 }
 
 
+
 #pic{
   height: 250px;
   width: 250px;
-  border-radius: 50%;
-  margin: 150px 300px;
+  border-radius: 0%;
+  margin: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 30px auto 100px;
+  grid-template-areas: 
+    "header"
+    "footer"
+    "content"
+    "side";
+ 
 }
 
 .intro {
-  text-align: left;
+  text-align: center;
+  background-color:;
   font-size: 40px;
   color: black;
-  position: absolute;
-  line-height: 700px;
-  left: 700px;
-  bottom: 10px;
-  width: 325px;
+  line-height: 100px;
+  width: 250px;
+  left: 300px;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
-
-.abt{
-  text-align: left;
+.abt,.abt2{
   font-size: 16px;
   color: black;
-  position: absolute;
-  line-height: 600px;
-  left: 700px;
+  line-height: 700px;
+  left: 300px;
   bottom: 10px;
-  width: 325px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .abt2{
-  text-align: left;
-  font-size: 16px;
-  color: black;
-  position: absolute;
-  line-height: 550px;
-  left: 700px;
-  bottom: 10px;
-  width: 325px;
+  
+  line-height: 600px;
 }
 
 #learn-more{
-  text-align: center;
   font-size: 16px;
   color: black;
-  position: absolute;
-  line-height: 20px;
-  left: 700px;
-  bottom: 150px;
-  width: 100px;
+  left: 360px;
+  bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  #pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 150px 300px;
+  }
+  
+  .intro {
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    line-height: 700px;
+    left: 700px;
+    bottom: 10px;
+    width: 325px;
+  }
+  
+  .abt{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    line-height: 600px;
+    left: 700px;
+    bottom: 10px;
+    width: 325px;
+  }
+  .abt2{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    line-height: 550px;
+    left: 700px;
+    bottom: 10px;
+    width: 325px;
+  }
+  
+  #learn-more{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    line-height: 20px;
+    left: 700px;
+    bottom: 150px;
+    width: 100px;
+  }
 }
