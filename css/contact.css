@@ -1,0 +1,13 @@
+#contact,#banner{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+#contact-form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
