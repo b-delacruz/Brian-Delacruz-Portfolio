@@ -1,24 +1,88 @@
-#resume{
-  text-align: center;
-  font-size: 16px;
-  color: black;
-  position: absolute;
-  line-height: 50px;
-  left: 800px;
-  bottom: 10px;
-  height: 500px;
-  width: 450px;
+nav{
+  text-align: right;
 }
 
-#abtMe{
-  position: absolute;
-  top: 125px;
-  left: 350px;
+body {
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 30px auto 100px;
+  grid-template-areas: 
+    "header"
+    "footer"
+    "content"
+    "side";
+}
+
+#abtMe {
+  text-align: center;
   font-size: 40px;
+  color: black;
+  width: 250px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nft-pic{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #resumeBtn{
-position: absolute;
-top: 500px;
-right: 300px;
+  font-size: 16px;
+  color: black;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+#resume{
+  font-size: 16px;
+  color: black;
+  margin: 30px auto;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #nft-pic{
+    height: 250px;
+    width: 250px;
+    margin: 150px 300px;
+    border-radius: 50%;
+  }
+  #abtMe{
+    position: absolute;
+    font-size: 40px;
+    margin: 50px 280px;
+  }
+
+  #resume{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    width: 500px;
+    margin: -400px 750px;
+  }
+
+#resumeBtn{
+  font-size: 16px;
+  color: black;
+  position: relative;
+  margin: 450px 60px 2px 325px;
+  width: 100%;
+ }
 }
