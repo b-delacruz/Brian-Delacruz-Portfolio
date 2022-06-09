@@ -39,4 +39,10 @@ width: 380px;
 .contact-btn{
   margin: 10px auto;
   border: double;
+  
+}
+
+img{
+  height: 50px;
+  width: 50px;
 }
