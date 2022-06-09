@@ -9,17 +9,15 @@
   height: 400px;
   width: 450px;
 }
-body{
-  background-color: grey;
-}
 
 #abtMe{
   position: absolute;
-  top: 165px;
+  top: 125px;
   left: 350px;
   font-size: 40px;
 }
 
 #resumeBtn{
-
+position: absolute;
+top: 500px;
 }

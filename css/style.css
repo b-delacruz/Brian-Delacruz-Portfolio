@@ -1,92 +1,73 @@
-#home-page{
-  font-size: 20px;
-  font-weight: 700;
-  text-align: left;
-  color: black;
-  margin-left: 5px;
-  line-height: 50px;
-  padding: 10px 100px 10px 100px;
-  background-color: blue;
-}
-
 nav{
   text-align: right;
-  font-size: 18px;
-  font-weight: 70px;
-  padding: 0px 40px;
-  margin-right: 50px;
-  letter-spacing: -1px;
-  color: black;
 }
 
-header{
-  border-bottom: 2px solid;
-  background: lightgray;
-  height: 100px;
-  width: auto;
-  }
 
-  #pic{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin: 150px 300px;
-  }
+.container-fluid{
+}
 
-  .intro {
-    text-align: left;
-    font-size: 40px;
-    color: black;
-    position: absolute;
-    line-height: 700px;
-    left: 700px;
-    bottom: 10px;
-    width: 325px;
-  }
 
-  .abt{
-    text-align: left;
-    font-size: 16px;
-    color: black;
-    position: absolute;
-    line-height: 600px;
-    left: 700px;
-    bottom: 10px;
-    width: 325px;
-  }
-  .abt2{
-    text-align: left;
-    font-size: 16px;
-    color: black;
-    position: absolute;
-    line-height: 550px;
-    left: 700px;
-    bottom: 10px;
-    width: 325px;
-  }
+#pic{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 150px 300px;
+}
 
-  #learn-more{
-      text-align: center;
-      font-size: 16px;
-      color: black;
-      position: absolute;
-      line-height: 20px;
-      left: 700px;
-      bottom: 150px;
-      width: 100px;
+.intro {
+  text-align: left;
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  line-height: 700px;
+  left: 700px;
+  bottom: 10px;
+  width: 325px;
+}
+
+.abt{
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  position: absolute;
+  line-height: 600px;
+  left: 700px;
+  bottom: 10px;
+  width: 325px;
+}
+.abt2{
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  position: absolute;
+  line-height: 550px;
+  left: 700px;
+  bottom: 10px;
+  width: 325px;
+}
+
+#learn-more{
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  position: absolute;
+  line-height: 20px;
+  left: 700px;
+  bottom: 150px;
+  width: 100px;
+}
+
+    /* #nft-collection{
+      padding: 20px;
     }
   
-  #nft-collection{
-    padding: 20px;
-  }
-
-  #my-work{
-    padding: 20px;
-  }
-  
-  #about-me{
-    padding: 20px;
-  }
-  #contact{
-    padding: 20px;
-  }
+    #my-work{
+      padding: 20px;
+    }
+    
+    #about-me{
+      padding: 20px;
+    }
+    #contact{
+      padding: 20px;
+    } */
