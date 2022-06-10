@@ -47,12 +47,11 @@ body {
 #resume{
   font-size: 16px;
   color: black;
-  margin: 30px auto;
+  right: 100px;
   padding: 0 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  background-color: ;
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,11 +77,22 @@ body {
     margin: -400px 750px;
   }
 
-#resumeBtn{
-  font-size: 16px;
-  color: black;
-  position: relative;
-  margin: 450px 60px 2px 295px;
-  width: 100%;
- }
+  #resumeBtn{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    margin: 450px auto 2px auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  #resume{
+    font-size: 16px;
+    color: red;
+    right: 275px;
+    padding: 0 150px;
+    display: flex;
+  }
 }
