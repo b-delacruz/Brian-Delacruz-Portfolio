@@ -12,14 +12,7 @@ nav{
   align-items: center;
 }
 h1 {
-  background-color: var(--header-bg);
-  font-family: var(--serif);
-  font-size: 48px;
-  font-weight: 700;
-  margin: 12px 0;
-  padding: 12px;
-  text-align: center;
-  width: 100%;
+  
 }
 
 .btn {
@@ -51,14 +44,14 @@ body {
     "footer"
     "content"
     "side";
-    --body-bg: #858be18d;
+    --body-bg: #5f6c795d;
     --btn-text-color: #2a2a2a;
     --card-text-color: #3e3e3e;
     --header-bg: #007bbe;
     --header-text-color: #d8d8d8;
     --inverted-btn-text-color: #eaeaea;
     --light-dark-btn-bg: #121425;
-    --light-dark-btn-content: "Dark";
+    --light-dark-btn-content: "Dark Mode";
     align-items: center;
     background-color: var(--body-bg);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -68,7 +61,7 @@ body {
 }
 
 body.dark {
-  --body-bg: #171c44;
+  --body-bg: #1f233de5;
   --btn-text-color: #eaeaea;
   --card-text-color: #dedede;
   --header-bg: #005e9d;
@@ -76,7 +69,7 @@ body.dark {
   --inverted-btn-text-color: #2a2a2a;
   --light-dark-btn-bg: linear-gradient(to right top, #444655, #595b6b, #6f7181,
     #868898, #9ea0b0, #acaebe, #bbbccd, #cacbdc, #d2d4e5, #dadced, #e3e5f6, #ebeeff);
-  --light-dark-btn-content: "Light";
+  --light-dark-btn-content: "Light Mode";
   background-color: var(--body-bg);
 }
 
@@ -158,12 +151,12 @@ body.dark {
     width: 250px;
     margin: 50px auto;
     left: 600px;
-    color: red;
   }
 
   .abt,.abt2 {
     left: 550px;
   }
 }
+
 
 

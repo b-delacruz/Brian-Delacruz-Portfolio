@@ -30,7 +30,8 @@
 
 }
 
-/* <h5 class="card-title">Title</h5>
-<p class="card-text">Description</p>
-<a href="#" class="git-btn">Github</a>
-<a href="#" class="deploy-btn">Deployment</a> */
+h1{
+text-align: center;
+color: black;
+margin: 20px auto;
+}
