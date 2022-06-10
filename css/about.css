@@ -40,8 +40,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  padding: 10px 50px;
+  border: solid rgb(39, 39, 39);
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 5px auto;
+  width: 245px;
+  padding: 10px 5px;
 }
 
 #resume{
@@ -82,7 +86,7 @@ body {
     color: black;
     position: relative;
     margin: 450px auto 2px auto;
-    width: 100%;
+  
   }
 }
 
@@ -93,5 +97,7 @@ body {
     right: 275px;
     padding: 0 100px;
     display: flex;
+    
+
   }
 }

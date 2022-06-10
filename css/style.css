@@ -94,6 +94,17 @@ body.dark {
   width: 100%;
 }
 
+#learn-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(39, 39, 39);
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 5px auto;
+  width: 245px;
+  padding: 10px 5px;
+}
 
 @media only screen and (min-width: 768px) {
 
