@@ -1,12 +1,14 @@
 #card-container{
   display: flex;
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-template-rows: 50px 30px auto 100px;
-  grid-template-areas:  
-  "header header"
-  "footer"
-  "content"
-  "side";
-
+  flex-direction: column;
+  margin: 0 auto;
   gap: 15px;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+	width: 100%;
 }
