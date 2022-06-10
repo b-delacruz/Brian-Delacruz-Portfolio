@@ -48,10 +48,10 @@ body {
   font-size: 16px;
   color: black;
   right: 100px;
-  padding: 0 100px;
+  padding: 0 60px;
   display: flex;
   width: 100%;
-  background-color: ;
+  line-height: 50px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -86,13 +86,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1075px) {
 
   #resume{
     font-size: 16px;
-    color: red;
     right: 275px;
-    padding: 0 150px;
+    padding: 0 100px;
     display: flex;
   }
 }
