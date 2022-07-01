@@ -1,5 +1,5 @@
 # Brian-Delacruz-Portfolio!
-(https://briandelacruz/code/sei/projects/Brian-Delacruz-Portfolio/assets/readme.png)
+/assets/readme.png)
 
 Welcome to my portfolio, a webpage designed to showcase my NFT collection, my work and my resume. The user can navigate the page by utilizing the navigation bar on the top right corner. 
 

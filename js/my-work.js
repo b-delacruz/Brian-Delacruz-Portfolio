@@ -7,11 +7,11 @@ let myWork = [
     description:'A tic tac toe game',
   },
   {
-    title:'Guess The Number',
-    deployment:'',
-    image:'/assets/mywork/Guess.png',
+    title:'Run, Run!',
+    deployment:'https://brian-delacruz-workout-planner.herokuapp.com/',
+    image:'/assets/mywork/run.png',
     github:'https://github.com/b-delacruz/guess-the-number-lab',
-    description:'A game where you guess the number, give it a try!',
+    description:'An app where you guess the number, give it a try!',
   },
   {
     title:'Simple To-Do List',
