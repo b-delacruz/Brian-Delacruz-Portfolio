@@ -10,7 +10,7 @@ let myWork = [
     title:'Run, Run!',
     deployment:'https://brian-delacruz-workout-planner.herokuapp.com/',
     image:'/assets/mywork/runner.png',
-    github:'https://github.com/b-delacruz/guess-the-number-lab',
+    github:'https://github.com/b-delacruz/Brian-Delacruz-workout-planner',
     description:'An app where you log your runs and find new races!',
   },
   {
