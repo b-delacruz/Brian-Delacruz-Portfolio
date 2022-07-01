@@ -11,7 +11,7 @@ let myWork = [
     deployment:'https://brian-delacruz-workout-planner.herokuapp.com/',
     image:'/assets/mywork/runner.png',
     github:'https://github.com/b-delacruz/guess-the-number-lab',
-    description:'An app where you guess the number, give it a try!',
+    description:'An app where you log your runs and find new races!',
   },
   {
     title:'Simple To-Do List',
