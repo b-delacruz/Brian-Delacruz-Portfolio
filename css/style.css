@@ -1,0 +1,259 @@
+nav{
+  text-align: right;
+}
+
+#pic{
+  height: 250px;
+  width: 250px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  
+}
+
+.btn {
+  border: none;
+  color: var(--btn-text-color);
+  font-family: var(--cursive);
+  font-size: 24px;
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+}
+
+#light-dark-button {
+  background-color: var(--light-dark-btn-bg);
+  background-image: var(--light-dark-btn-bg);
+}
+
+#light-dark-button::after {
+  border: none;
+  color: var(--inverted-btn-text-color);
+  content: var(--light-dark-btn-content);
+}
+
+body {
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 30px auto 100px;
+  grid-template-areas: 
+    "header"
+    "footer"
+    "content"
+    "side";
+    --body-bg: #5f6c795d;
+    --btn-text-color: #2a2a2a;
+    --card-text-color: #3e3e3e;
+    --header-bg: #007bbe;
+    --header-text-color: #d8d8d8;
+    --inverted-btn-text-color: #eaeaea;
+    --light-dark-btn-bg: #121425;
+    --light-dark-btn-content: "Dark Mode";
+    align-items: center;
+    background-color: var(--body-bg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    flex-direction: column;
+    margin: 0;
+}
+
+body.dark {
+  --body-bg: #1f233de5;
+  --btn-text-color: #eaeaea;
+  --card-text-color: #dedede;
+  --header-bg: #005e9d;
+  --header-text-color: #d8d8d8;
+  --inverted-btn-text-color: #2a2a2a;
+  --light-dark-btn-bg: linear-gradient(to right top, #444655, #595b6b, #6f7181,
+    #868898, #9ea0b0, #acaebe, #bbbccd, #cacbdc, #d2d4e5, #dadced, #e3e5f6, #ebeeff);
+  --light-dark-btn-content: "Light Mode";
+  background-color: var(--body-bg);
+}
+
+.intro {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  width: 250px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt, .abt2, .learn{
+  font-size: 16px;
+  color: black;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#learn-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(39, 39, 39);
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 5px auto;
+  width: 245px;
+  padding: 10px 5px;
+}
+
+#abtMe {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  width: 250px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nft-pic{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resumeBtn{
+  font-size: 16px;
+  color: black;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(39, 39, 39);
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 5px auto;
+  width: 245px;
+  padding: 10px 5px;
+}
+
+#resume{
+  font-size: 16px;
+  color: black;
+  right: 100px;
+  padding: 0 60px;
+  display: flex;
+  width: 100%;
+  line-height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 150px 300px;
+  }
+  
+  .intro {
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    line-height: 700px;
+    left: 700px;
+    bottom: 10px;
+    width: 325px;
+  }
+  
+  .abt{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    line-height: 600px;
+    left: 700px;
+    bottom: 10px;
+    width: 325px;
+  }
+  .abt2{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    line-height: 550px;
+    left: 700px;
+    bottom: 10px;
+    width: 325px;
+  }
+  
+  #learn-more{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    position: relative;
+    margin: 0 0 0 275px;
+  }
+
+  #nft-pic{
+    height: 250px;
+    width: 250px;
+    margin: 150px 300px;
+    border-radius: 50%;
+  }
+  #abtMe{
+    position: absolute;
+    font-size: 40px;
+    margin: 50px 280px;
+  }
+
+  #resume{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    width: 500px;
+    margin: -400px 750px;
+  }
+
+  #resumeBtn{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    margin: 450px auto 2px auto;
+  
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+
+  #resume{
+    font-size: 16px;
+    right: 275px;
+    padding: 0 100px;
+    display: flex;
+    
+
+  }
+}
+
+@media only screen and (max-width: 950px) {
+
+  .intro{
+    width: 250px;
+    margin: 50px auto;
+    left: 600px;
+  }
+
+  .abt,.abt2 {
+    left: 550px;
+  }
+}
+
+
+
