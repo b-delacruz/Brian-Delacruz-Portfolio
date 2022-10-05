@@ -12,17 +12,19 @@ li {
   float: right;
 }
 
+.home {
+  float: left;
+}
+
 li a {
+  text-decoration: none;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
-a {
-  color: white;
-}
+
 #pic{
   height: 250px;
   width: 250px;
